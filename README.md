@@ -3,7 +3,7 @@
 
 **Version:** 1.0  
 **Last Updated:** July 17, 2025  
-**Maintainers:** Dr. Raja Babu Jamatia
+**Maintainers:** Dr. Raja Babu Jamatia & Dr. Paweł Gora 
 
 
 ---
@@ -185,7 +185,7 @@ Expansion into stochastic & dynamic VRP variants
 __________________________________________________________________________
 |   **Name**                 |     **Role**                              |
 |----------------------------|-------------------------------------------|
-| Dr. Raja Babu Jamatia      |  Repository maintainer         |
+| Dr. Raja Babu Jamatia      |  Architect                                |
 | Dr. Paweł Gora             |  Supervisor                               |
 |                            |                                           |             
 --------------------------------------------------------------------------

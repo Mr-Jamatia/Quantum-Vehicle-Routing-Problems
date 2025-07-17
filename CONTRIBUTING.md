@@ -1,8 +1,9 @@
-# 🧭 Quantum Vehicle Routing Problems – <br> Contribution & Structure Guide
+# 🧭 Quantum Vehicle Routing Problems – <br> Contribution & Structure Guide <br>
+
 
 **Version:** 1.0  
-**Last Updated:** July 16, 2025  
-**Maintainers:** Dr. Raja Babu Jamatia, Pawet Gora
+**Last Updated:** July 17, 2025  
+**Maintainers:** Dr. Raja Babu Jamatia, Dr. Pawet Gora
 
 
 

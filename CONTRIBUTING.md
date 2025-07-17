@@ -3,7 +3,7 @@
 
 **Version:** 1.0  
 **Last Updated:** July 17, 2025  
-**Maintainers:** Dr. Raja Babu Jamatia, Dr. Pawet Gora
+**Maintainers:** Dr. Raja Babu Jamatia
 
 
 ---

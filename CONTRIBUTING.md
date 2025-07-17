@@ -7,7 +7,7 @@
 
 
 
-# 🤝 Contributing to Quantum-Vehicle-Routing-Problems
+# 🤝 Contributing to Quantum Vehicle Routing Problems
 
 Welcome! 🎉
 

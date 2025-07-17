@@ -198,6 +198,8 @@ __________________________________________________________________________
 
 Have questions, suggestions, or want to discuss quantum solvers?
 
-Open an Issue
-Start a conversation via GitHub Discussions
+- Open an Issue
+- Start a conversation via GitHub Discussions
+
+<br>
 © 2025 Quantum-Vehicle-Routing-Problems

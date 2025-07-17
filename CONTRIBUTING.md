@@ -1,9 +1,12 @@
-# 🧭 Quantum Vehicle Routing Problems – Contribution & Structure Guide
+# 🧭 Quantum Vehicle Routing Problems – <br> Contribution & Structure Guide
 
-Version: 1.0
-Last Updated: July 16, 2025
-Maintainers: Dr. Raja Babu Jamatia, Pawet Gora
+**Version:** 1.0  
+**Last Updated:** July 16, 2025  
+**Maintainers:** Dr. Raja Babu Jamatia, Pawet Gora
 
+
+
+<br><br>
 🚀 Purpose
 
 This repository aims to advance Quantum approaches to solving various classes of Vehicle Routing Problems (VRP), including Capacitated VRP (CVRP), VRP with Time Windows (CVRPTW), and generic VRP using hybrid, quantum-inspired, and classical methods.

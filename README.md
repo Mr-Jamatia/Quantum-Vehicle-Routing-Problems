@@ -188,7 +188,7 @@ Expansion into stochastic & dynamic VRP variants
 __________________________________________________________________________
 |   **Name**                 |     **Role**                              |
 |----------------------------|-------------------------------------------|
-| Dr. Raja Babu Jamatia      |  Quantum Architect, Core Contributor      |
+| Dr. Raja Babu Jamatia      |  Quantum Architect, Project Lead          |
 | Dr. Pawet Gora             |  Supervisor                               |
 |                            |                                           |             
 --------------------------------------------------------------------------

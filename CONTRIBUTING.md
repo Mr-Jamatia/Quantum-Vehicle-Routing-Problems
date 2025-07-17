@@ -109,3 +109,56 @@ _____________________________________________________________
 ### ➤ Feature Branch Naming
 
 Use a consistent, scientific naming convention:
+
+**Examples:**
+- `feat/cvrptw-shared-qubo-refactor`
+- `feat/unified-shared-qubo-architecture`
+
+---
+
+## ✅ New Contributor Checklist
+
+1. **Fork** the repository
+2. **Clone** your fork:
+    ```bash
+    git clone https://github.com/<your-username>/Quantum-Vehicle-Routing-Problems.git
+    cd Quantum-Vehicle-Routing-Problems
+    ```
+3. **Create** a feature branch:
+    ```bash
+    git checkout -b feat/<scope>-<topic>
+    ```
+4. **Follow** the commit convention:
+    ```
+    <type>(<scope>): <summary>
+    ```
+    Example:
+    ```
+    refactor(CVRPTW): modularize shared encoding logic
+    ```
+5. **Add** documentation and unit tests
+6. **Validate** all tests:
+    ```bash
+    pytest
+    ```
+7. **Push and Open** a PR to the `dev` branch
+
+---
+
+## 📁 File Sharing Guidelines
+
+- Use `shared/` **within a variant** for intra-variant reusable logic
+- Place cross-variant utilities under `src/`
+- Avoid cyclic imports
+- Keep utilities functional and minimal
+
+---
+
+## 🧪 Testing & Validation
+
+Before pushing, run the full test suite:
+
+```bash
+pytest --cov=variants/ --cov=src/ --cov-report=term-missing
+ ```
+**⚠️ Note:** Pull Requests will only be merged when all CI checks pass.

@@ -6,11 +6,22 @@
 **Maintainers:** Dr. Raja Babu Jamatia, Dr. Pawet Gora
 
 
+---
 
-<br><br>
-🚀 Purpose
+## 🚀 Purpose
 
-This repository aims to advance Quantum approaches to solving various classes of Vehicle Routing Problems (VRP), including Capacitated VRP (CVRP), VRP with Time Windows (CVRPTW), and generic VRP using hybrid, quantum-inspired, and classical methods.
+This repository aims to advance **Quantum and Hybrid Approaches** for solving a wide range of Vehicle Routing Problems (VRP), including:
+
+- Capacitated VRP (CVRP)
+- VRP with Time Windows (CVRPTW)
+- General VRP Models
+
+It encourages development using **Quantum-Inspired**, **Hybrid Quantum-Classical**, and **Classical AI/OR** methods.
+
+---
+
+
+
 
 🧱 Repository Structure
 

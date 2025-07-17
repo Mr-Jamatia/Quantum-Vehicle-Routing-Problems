@@ -202,4 +202,5 @@ Have questions, suggestions, or want to discuss quantum solvers?
 - Start a conversation via GitHub Discussions
 
 <br>
-© 2025 Quantum-Vehicle-Routing-Problems
+
+**© 2025 Quantum-Vehicle-Routing-Problems**

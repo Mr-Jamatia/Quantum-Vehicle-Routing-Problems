@@ -162,3 +162,36 @@ Before pushing, run the full test suite:
 pytest --cov=variants/ --cov=src/ --cov-report=term-missing
  ```
 **⚠️ Note:** Pull Requests will only be merged when all CI checks pass.
+
+
+⚠️ Elimination of Legacy Files
+
+Legacy code (e.g., authored by Brennan) must be:
+
+Reviewed and documented
+Refactored into compliant structure or
+Removed if redundant/non-modular
+🔒 Please contact maintainers before any deletion.
+
+📌 Future Roadmap
+
+Modular QUBO builders for improved scalability
+Benchmarking standardization across solvers
+Backend support:
+D-Wave Advantage
+IBM Q
+Hybrid Simulators
+Expansion into stochastic & dynamic VRP variants
+🙌 Contributors and Roles
+
+Name	Role
+Dr. Raja Babu Jamatia	Quantum Architect, Core Contributor
+Pawet Gora	Optimization Lead
+Brennan	Legacy Structure Architect
+📫 Contact & Community
+
+Have questions, suggestions, or want to discuss quantum solvers?
+
+Open an Issue
+Start a conversation via GitHub Discussions
+© 2025 Quantum-Vehicle-Routing-Problems

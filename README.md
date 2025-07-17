@@ -12,11 +12,9 @@
 
 This repository aims to advance **Quantum and Hybrid Approaches** for solving a wide range of Vehicle Routing Problems (VRP), including:
 
-- Capacitated VRP (CVRP)
-- VRP with Time Windows (CVRPTW)
 - General VRP Models
-
-It encourages development using **Quantum-Inspired**, **Hybrid Quantum-Classical**, and **Classical AI/OR** methods.
+- Capacitated VRP (CVRP)
+- CVRP with Time Windows (CVRPTW)
 
 ---
 
@@ -179,8 +177,7 @@ Modular QUBO builders for improved scalability
 Benchmarking standardization across solvers
 Backend support:
 - D-Wave Advantage
-- IBM Q
-- Hybrid Simulators
+- Hybrid and Classical Simulators
 Expansion into stochastic & dynamic VRP variants
 
 ## 🙌 Contributors and Roles
@@ -188,8 +185,8 @@ Expansion into stochastic & dynamic VRP variants
 __________________________________________________________________________
 |   **Name**                 |     **Role**                              |
 |----------------------------|-------------------------------------------|
-| Dr. Raja Babu Jamatia      |  Quantum Architect, Project Lead          |
-| Dr. Pawet Gora             |  Supervisor                               |
+| Dr. Raja Babu Jamatia      |  Repository maintainer         |
+| Dr. Paweł Gora             |  Supervisor                               |
 |                            |                                           |             
 --------------------------------------------------------------------------
 
@@ -200,7 +197,7 @@ Have questions, suggestions, or want to discuss quantum solvers?
 
 - Open an Issue
 - Start a conversation via GitHub Discussions
-
+- Send an email to pawel.gora@qaif.org
 <br>
 
 **© 2025 Quantum-Vehicle-Routing-Problems**

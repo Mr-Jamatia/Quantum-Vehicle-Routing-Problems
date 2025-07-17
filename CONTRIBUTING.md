@@ -189,7 +189,8 @@ Name	Role
 Dr. Raja Babu Jamatia	Quantum Architect, Core Contributor
 Pawet Gora	Optimization Lead
 Brennan	Legacy Structure Architect
-📫 Contact & Community
+
+## 📫 Contact & Community
 
 Have questions, suggestions, or want to discuss quantum solvers?
 

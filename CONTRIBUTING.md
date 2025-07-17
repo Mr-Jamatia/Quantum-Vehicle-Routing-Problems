@@ -164,16 +164,16 @@ pytest --cov=variants/ --cov=src/ --cov-report=term-missing
 **⚠️ Note:** Pull Requests will only be merged when all CI checks pass.
 
 
-⚠️ Elimination of Legacy Files
+##⚠️ Elimination of Legacy Files
 
 Legacy code (e.g., authored by Brennan) must be:
 
-Reviewed and documented
-Refactored into compliant structure or
-Removed if redundant/non-modular
+- Reviewed and documented
+- Refactored into compliant structure or
+- Removed if redundant/non-modular
 🔒 Please contact maintainers before any deletion.
 
-📌 Future Roadmap
+##📌 Future Roadmap
 
 Modular QUBO builders for improved scalability
 Benchmarking standardization across solvers

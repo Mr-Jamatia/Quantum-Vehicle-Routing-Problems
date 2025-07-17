@@ -178,10 +178,11 @@ Legacy code (e.g., authored by Brennan) must be:
 Modular QUBO builders for improved scalability
 Benchmarking standardization across solvers
 Backend support:
-D-Wave Advantage
-IBM Q
-Hybrid Simulators
+- D-Wave Advantage
+- IBM Q
+- Hybrid Simulators
 Expansion into stochastic & dynamic VRP variants
+
 ## 🙌 Contributors and Roles
 
 Name	Role

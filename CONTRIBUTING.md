@@ -6,6 +6,32 @@
 **Maintainers:** Dr. Raja Babu Jamatia
 
 
+
+# 🤝 Contributing to Quantum-Vehicle-Routing-Problems
+
+Welcome! 🎉
+
+We appreciate your interest in contributing to the **Quantum-Vehicle-Routing-Problems (QVRP)** project. This repository is built with scientific rigor and collaborative spirit. Whether you're fixing a typo, improving code efficiency, or adding entirely new features—your contribution is valuable.
+
+---
+
+## 📋 Table of Contents
+
+1. [Code of Conduct](#code-of-conduct)
+2. [Ground Rules](#ground-rules)
+3. [Getting Started](#getting-started)
+4. [Branching Strategy](#branching-strategy)
+5. [Commit Guidelines](#commit-guidelines)
+6. [Coding Standards](#coding-standards)
+7. [Testing & CI](#testing--ci)
+8. [Legacy Files Policy](#legacy-files-policy)
+9. [Pull Request Process](#pull-request-process)
+10. [Community & Support](#community--support)
+
+---
+
+
+
 ---
 
 ## 🚀 Purpose

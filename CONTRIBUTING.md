@@ -98,3 +98,14 @@ _____________________________________________________________
 | Testing       | `pytest`, with ≥ 80% test coverage        |
 | Type Hinting  | Required throughout the codebase          |
 -------------------------------------------------------------
+
+
+## 🔁 Branching Strategy
+
+### ➤ Main Branches
+- `main` – Stable, production-ready code
+- `dev` – Integrated but in-development features (may fail CI)
+
+### ➤ Feature Branch Naming
+
+Use a consistent, scientific naming convention:

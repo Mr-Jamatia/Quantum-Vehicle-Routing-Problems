@@ -185,10 +185,16 @@ Expansion into stochastic & dynamic VRP variants
 
 ## 🙌 Contributors and Roles
 
-Name	Role
-Dr. Raja Babu Jamatia	Quantum Architect, Core Contributor
-Pawet Gora	Optimization Lead
-Brennan	Legacy Structure Architect
+__________________________________________________________________________
+|   **Name**                 |     **Role**                              |
+|----------------------------|-------------------------------------------|
+| Dr. Raja Babu Jamatia      |  Quantum Architect, Core Contributor      |
+| Dr. Pawet Gora             |  Optimization Lead, Supervisor            |
+|                            |                                           |
+|                            |                                           |                       
+|                            |                                           |
+--------------------------------------------------------------------------
+
 
 ## 📫 Contact & Community
 

@@ -23,52 +23,78 @@ It encourages development using **Quantum-Inspired**, **Hybrid Quantum-Classical
 
 
 
-🧱 Repository Structure
+## 🧱 Repository Structure
 
+```bash
 Quantum-Vehicle-Routing-Problems/
 │
-├── data/                     # Datasets for benchmarking VRP variants
+├── data/                                # Centralized input datasets
 │   ├── CVRP/
 │   ├── CVRPTW/
 │   └── VRP/
 │
-├── variants/                 # Core logic by VRP type
+├── variants/                            # Core logic grouped by VRP variants
 │   ├── CVRP/
-│   │   ├── solvers/          # Variant-specific solver implementations
-│   │   │   ├── shared/       # Reusable logic only for CVRP
+│   │   ├── solvers/
+│   │   │   ├── __init__.py
+│   │   │   ├── greedy_solver.py
+│   │   │   ├── hybrid_solver.py
+│   │   │   ├── qubo_dwave_solver.py
+│   │   │   └── shared/                 # Shared logic local to CVRP solvers
+│   │   │       ├── unconstrained_qubo.py
+│   │   │       └── penalty_utils.py
 │   │   ├── problem.py
 │   │   └── utils.py
+│   │
 │   ├── CVRPTW/
 │   │   ├── solvers/
-│   │   │   ├── shared/
+│   │   │   ├── hybrid_solver.py
+│   │   │   ├── qubo_dwave_solver.py
+│   │   │   ├── tabu_solver.py
+│   │   │   └── shared/                # Shared logic local to CVRPTW solvers
+│   │   │       └── time_window_encoding.py
 │   │   ├── problem.py
 │   │   └── utils.py
+│   │
 │   ├── VRP/
 │   │   ├── solvers/
-│   │   │   ├── shared/
+│   │   │   ├── baseline_solver.py
+│   │   │   ├── qubo_classical_emulation.py
+│   │   │   └── shared/               # Placeholder if reusable components emerge
 │   │   ├── problem.py
 │   │   └── utils.py
 │
-├── src/                      # Shared modules across all VRPs
-│   ├── common/               # Interfaces, routing abstractions, DW helpers
-│   ├── encoding/             # QUBO encoding utilities
-│   ├── preprocessing/        # Data transformation/standardization
-│   └── analysis/             # Metrics, visualization, comparison
+├── src/                                 # Shared core modules across all variants
+│   ├── common/                          # Generic interfaces, models, helpers
+│   │   ├── routing_problem.py
+│   │   ├── routing_solution.py
+│   │   └── dwave_helper.py
+│   ├── encoding/
+│   ├── preprocessing/
+│   └── analysis/
 │
-├── notebooks/                # Jupyter notebooks for experimentation
-├── results/                  # Output results, plots, reports
-├── docs/                     # Project documentation (e.g., architecture, specs)
-├── images/                   # Supporting visual assets
-├── tests/                    # Unit & integration tests
-├── README.md
-├── CONTRIBUTING.md
-├── environment.yml           # Conda environment specification
-└── requirements.txt          # Pip-based dependency list
-📜 Coding Standards
+├── notebooks/                           # Jupyter notebooks for experimentation
+├── results/                             # Output results, graphs, logs
+├── tests/                               # Unit and integration tests
+├── docs/                                # Documentation, API references, theory
+├── images/                              # Visual diagrams or illustrations
+│
+├── LICENSE                              # Open source license (e.g., MIT, Apache 2.0)
+├── README.md                            # Project overview, usage, setup
+├── CONTRIBUTING.md                      # Contribution guidelines for collaborators
+├── requirements.txt                     # Python dependency specification
+└── environment.yml                      # Conda environment setup
 
-Language: Python 3.10+
-Formatting: Follow PEP8
-Linting: Use flake8, black, and isort
-Docstrings: NumPy style
-Tests: Write unit tests using pytest and include at least 80% coverage
-Type Hinting: Enforced across the entire codebase
+``` 
+
+
+## 📜 Coding Standards
+_____________________________________________________________
+| **Category**  | **Standard**                              |
+|---------------|-------------------------------------------|
+| Language      | Python 3.10+                              |
+| Style Guide   | PEP8 with `flake8`, `black`, `isort`      |
+| Docstrings    | NumPy-style                               |
+| Testing       | `pytest`, with ≥ 80% test coverage        |
+| Type Hinting  | Required throughout the codebase          |
+-------------------------------------------------------------

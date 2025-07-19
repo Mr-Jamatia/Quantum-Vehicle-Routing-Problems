@@ -26,12 +26,14 @@ This repository aims to advance **Quantum and Hybrid Approaches** for solving a 
 ```bash
 Quantum-Vehicle-Routing-Problems/
 │
-├── data/                                # Centralized input datasets
+├── Data/                                # Centralized input datasets
 │   ├── CVRP/
 │   ├── CVRPTW/
-│   └── VRP/
-│
-├── variants/                            # Core logic grouped by VRP variants
+│   ├── VRP/
+│   └── Global_Datasets/                 # similar Datasets for all
+│       └── solomon/
+│        
+├── Variants/                            # Core logic grouped by VRP variants
 │   ├── CVRP/
 │   │   ├── solvers/
 │   │   │   ├── __init__.py
@@ -54,15 +56,15 @@ Quantum-Vehicle-Routing-Problems/
 │   │   ├── problem.py
 │   │   └── utils.py
 │   │
-│   ├── VRP/
-│   │   ├── solvers/
-│   │   │   ├── baseline_solver.py
-│   │   │   ├── qubo_classical_emulation.py
-│   │   │   └── shared/               # Placeholder if reusable components emerge
-│   │   ├── problem.py
-│   │   └── utils.py
+│   └── VRP/
+│       ├── solvers/
+│       │   ├── baseline_solver.py
+│       │   ├── qubo_classical_emulation.py
+│       │   └── shared/               # Placeholder if reusable components emerge
+│       ├── problem.py
+│       └── utils.py
 │
-├── src/                                 # Shared core modules across all variants
+├── Src/                                 # Shared core modules across all variants
 │   ├── common/                          # Generic interfaces, models, helpers
 │   │   ├── routing_problem.py
 │   │   ├── routing_solution.py
@@ -71,17 +73,17 @@ Quantum-Vehicle-Routing-Problems/
 │   ├── preprocessing/
 │   └── analysis/
 │
-├── notebooks/                           # Jupyter notebooks for experimentation
-├── results/                             # Output results, graphs, logs
-├── tests/                               # Unit and integration tests
-├── docs/                                # Documentation, API references, theory
-├── images/                              # Visual diagrams or illustrations
+├── Notebooks/                           # Jupyter notebooks for experimentation
+├── Results/                             # Output results, graphs, logs
+├── Tests/                               # Unit and integration tests
+├── Docs/                                # Documentation, API references, theory
+├── Images/                              # Visual diagrams or illustrations
 │
 ├── LICENSE                              # Open source license (e.g., MIT, Apache 2.0)
 ├── README.md                            # Project overview, usage, setup
 ├── CONTRIBUTING.md                      # Contribution guidelines for collaborators
-├── requirements.txt                     # Python dependency specification
-└── environment.yml                      # Conda environment setup
+├── Requirements.txt                     # Python dependency specification
+└── Environment.yml                      # Conda environment setup
 
 ``` 
 

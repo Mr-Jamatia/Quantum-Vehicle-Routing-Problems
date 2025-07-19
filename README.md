@@ -15,8 +15,9 @@ This repository aims to advance **Quantum and Hybrid Approaches** for solving a 
 - General VRP Models
 - Capacitated VRP (CVRP)
 - CVRP with Time Windows (CVRPTW)
-
+  
 It encourages development using Quantum-Inspired and Hybrid Quantum-Classical.
+
 ---
 
 

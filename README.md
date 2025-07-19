@@ -194,6 +194,13 @@ __________________________________________________________________________
 | Rithik Rai                 |                                           |
 | Lohith Alladi              |                                           |
 | Risav Pokhrel              |                                           |
+| Naman Bansal               |                                           |
+| Sadiya Ansari              |                                           |
+| Suprajit Dewanji           |                                           |
+| sai sudarshan              |                                           |
+| Abhishek Raj               |                                           |
+|                            |                                           |
+|                            |                                           |
 |                            |                                           |
 --------------------------------------------------------------------------
 

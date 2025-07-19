@@ -30,17 +30,17 @@ Quantum-Vehicle-Routing-Problems/
 │   ├── CVRP/
 │   ├── CVRPTW/
 │   ├── VRP/
-│   └── Global_Datasets/                 # similar Datasets for all
+│   └── Global_Datasets/                  # similar Datasets for all
 │       └── solomon/
 │        
-├── Variants/                            # Core logic grouped by VRP variants
+├── Variants/                             # Core logic grouped by VRP variants
 │   ├── CVRP/
 │   │   ├── solvers/
 │   │   │   ├── __init__.py
 │   │   │   ├── greedy_solver.py
 │   │   │   ├── hybrid_solver.py
 │   │   │   ├── qubo_dwave_solver.py
-│   │   │   └── shared/                 # Shared logic local to CVRP solvers
+│   │   │   └── shared/                    # Shared logic local to CVRP solvers
 │   │   │       ├── unconstrained_qubo.py
 │   │   │       └── penalty_utils.py
 │   │   ├── problem.py
@@ -51,7 +51,7 @@ Quantum-Vehicle-Routing-Problems/
 │   │   │   ├── hybrid_solver.py
 │   │   │   ├── qubo_dwave_solver.py
 │   │   │   ├── tabu_solver.py
-│   │   │   └── shared/                # Shared logic local to CVRPTW solvers
+│   │   │   └── shared/                     # Shared logic local to CVRPTW solvers
 │   │   │       └── time_window_encoding.py
 │   │   ├── problem.py
 │   │   └── utils.py
@@ -60,12 +60,12 @@ Quantum-Vehicle-Routing-Problems/
 │       ├── solvers/
 │       │   ├── baseline_solver.py
 │       │   ├── qubo_classical_emulation.py
-│       │   └── shared/               # Placeholder if reusable components emerge
+│       │   └── shared/                      # Placeholder if reusable components emerge
 │       ├── problem.py
 │       └── utils.py
 │
-├── Src/                                 # Shared core modules across all variants
-│   ├── common/                          # Generic interfaces, models, helpers
+├── Src/                                     # Shared core modules across all variants
+│   ├── common/                              # Generic interfaces, models, helpers
 │   │   ├── routing_problem.py
 │   │   ├── routing_solution.py
 │   │   └── dwave_helper.py
@@ -73,17 +73,17 @@ Quantum-Vehicle-Routing-Problems/
 │   ├── preprocessing/
 │   └── analysis/
 │
-├── Notebooks/                           # Jupyter notebooks for experimentation
-├── Results/                             # Output results, graphs, logs
-├── Tests/                               # Unit and integration tests
-├── Docs/                                # Documentation, API references, theory
-├── Images/                              # Visual diagrams or illustrations
+├── Notebooks/                               # Jupyter notebooks for experimentation
+├── Results/                                 # Output results, graphs, logs
+├── Tests/                                   # Unit and integration tests
+├── Docs/                                    # Documentation, API references, theory
+├── Images/                                  # Visual diagrams or illustrations
 │
-├── LICENSE                              # Open source license (e.g., MIT, Apache 2.0)
-├── README.md                            # Project overview, usage, setup
-├── CONTRIBUTING.md                      # Contribution guidelines for collaborators
-├── Requirements.txt                     # Python dependency specification
-└── Environment.yml                      # Conda environment setup
+├── LICENSE                                  # Open source license (e.g., MIT, Apache 2.0)
+├── README.md                                # Project overview, usage, setup
+├── CONTRIBUTING.md                          # Contribution guidelines for collaborators
+├── Requirements.txt                         # Python dependency specification
+└── Environment.yml                          # Conda environment setup
 
 ``` 
 

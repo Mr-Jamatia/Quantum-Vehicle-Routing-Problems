@@ -189,23 +189,23 @@ Expansion into stochastic & dynamic VRP variants
 ______________________________________________________________________________________________________________________________________________
 |   **Name**                 |     **Role**                              |   **Contact**                                                     |
 |----------------------------|-------------------------------------------|-------------------------------------------------------------------|
-| Dr. Raja Babu Jamatia      |  Quantum Architect                        |<a href = "https://www.linkedin.com/in/pawelgora/">Click Me</a>    |
-| Dr. Paweł Gora             |  Supervisor                               |                 |
-| Raphael Reeves             |                                           | | 
-| Nafisa Shamim Rafa         |                                           ||
-| Eshika Tripura Puja        |                                           ||
-| Mustafa Mert Ozyilmaz      |                                           ||
-| Rithik Rai                 |                                           ||
-| Lohith Alladi              |                                           ||
-| Risav Pokhrel              |                                           ||
-| Naman Bansal               |                                           ||
-| Sadiya Ansari              |                                           ||
-| Suprajit Dewanji           |                                           ||
-| sai sudarshan              |                                           ||
-| Abhishek Raj               |                                           ||
-| Visalatchi R               |                                           ||
-| Mohammad Abid Hafiz        |                                           ||
-|                            |                                           ||
+| Dr. Raja Babu Jamatia      |  Quantum Architect                        | <a href = "https://www.linkedin.com/in/pawelgora/">Click Me</a>   |
+| Dr. Paweł Gora             |  Supervisor                               | <a href = "https://www.linkedin.com/in/pawelgora/">Click Me</a>   |
+| Raphael Reeves             |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>   | 
+| Nafisa Shamim Rafa         |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>   |
+| Eshika Tripura Puja        |                                           | <a href = "https://www.linkedin.com/in/eshikatripura/">Click Me</a> |
+| Mustafa Mert Ozyilmaz      |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Rithik Rai                 |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Lohith Alladi              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>  |
+| Risav Pokhrel              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Naman Bansal               |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Sadiya Ansari              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Suprajit Dewanji           |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| sai sudarshan              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Abhishek Raj               |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Visalatchi R               |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>  |
+| Mohammad Abid Hafiz        |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+|                            |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 

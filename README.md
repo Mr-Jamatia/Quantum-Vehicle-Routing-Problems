@@ -195,7 +195,7 @@ ________________________________________________________________________________
 | Nafisa Shamim Rafa         |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>   |
 | Eshika Tripura Puja        |                                           | <a href = "https://www.linkedin.com/in/eshikatripura/">Go</a> |
 | Mustafa Mert Ozyilmaz      |                                           | <a href = "https://www.linkedin.com/in/mustafa-mert6464/">Go</a> |
-| Rithik Rai                 |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Rithik Rai                 |                                           | <a href = "https://www.linkedin.com/in/iarithik/">GO</a> |
 | Lohith Alladi              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>  |
 | Risav Pokhrel              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
 | Naman Bansal               |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |

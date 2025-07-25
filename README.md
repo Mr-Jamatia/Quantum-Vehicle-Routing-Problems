@@ -190,11 +190,11 @@ ________________________________________________________________________________
 |   **Name**                 |     **Role**                              |   **Contact**                                                     |
 |----------------------------|-------------------------------------------|-------------------------------------------------------------------|
 | Dr. Raja Babu Jamatia      |  Quantum Architect                        | <a href = "https://www.linkedin.com/in/pawelgora/">Click Me</a>   |
-| Dr. Paweł Gora             |  Supervisor                               | <a href = "https://www.linkedin.com/in/pawelgora/">Click Me</a>   |
+| Dr. Paweł Gora             |  Supervisor                               | <a href = "https://www.linkedin.com/in/pawelgora/">GO</a>   |
 | Raphael Reeves             |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>   | 
 | Nafisa Shamim Rafa         |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>   |
-| Eshika Tripura Puja        |                                           | <a href = "https://www.linkedin.com/in/eshikatripura/">Click Me</a> |
-| Mustafa Mert Ozyilmaz      |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Eshika Tripura Puja        |                                           | <a href = "https://www.linkedin.com/in/eshikatripura/">Go</a> |
+| Mustafa Mert Ozyilmaz      |                                           | <a href = "https://www.linkedin.com/in/mustafa-mert6464/">Go</a> |
 | Rithik Rai                 |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
 | Lohith Alladi              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>  |
 | Risav Pokhrel              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |

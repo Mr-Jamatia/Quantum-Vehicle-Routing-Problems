@@ -189,7 +189,7 @@ Expansion into stochastic & dynamic VRP variants
 ______________________________________________________________________________________________________________________________________________
 |   **Name**                 |     **Role**                              |   **Contact**                                                     |
 |----------------------------|-------------------------------------------|-------------------------------------------------------------------|
-| Dr. Raja Babu Jamatia      |  Quantum Architect                        |                |
+| Dr. Raja Babu Jamatia      |  Quantum Architect                        |<a href = "https://www.linkedin.com/in/pawelgora/">Click Me</a>    |
 | Dr. Paweł Gora             |  Supervisor                               |                 |
 | Raphael Reeves             |                                           | | 
 | Nafisa Shamim Rafa         |                                           ||

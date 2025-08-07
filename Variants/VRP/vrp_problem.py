@@ -39,11 +39,27 @@ class VRPProblem:
             for k in range(1, k_max + 1):
                 variables_for_vehicle_step = [(i, j, k) for j in customer_nodes]
                 qubo.add_only_one_constraint(variables_for_vehicle_step, only_one_const)
+   
+        # ======================================================================
+        # CONSTRAINT 3: A vehicle cannot visit the same customer twice.
+        # ======================================================================
+        for i in range(num_vehicles):
+            k_max = vehicle_k_limits[i]
+            for j in customer_nodes:
+                # For this vehicle i and this customer j, get all possible steps k
+                variables_for_vehicle_dest = [(i, j, k) for k in range(1, k_max + 1)]
+                
+                # Add a penalty for any pair of these variables being 1,
+                # which means visiting the same customer at two different steps.
+                for k1_idx in range(len(variables_for_vehicle_dest)):
+                    for k2_idx in range(k1_idx + 1, len(variables_for_vehicle_dest)):
+                        var1 = variables_for_vehicle_dest[k1_idx]
+                        var2 = variables_for_vehicle_dest[k2_idx]
+                        # Use the same strong penalty
+                        qubo.add((var1, var2), only_one_const)
 
         # ======================================================================
         # OBJECTIVE FUNCTION C: Minimize travel distance BETWEEN CUSTOMERS.
-        # NOTE: Costs to/from the depot are handled classically in VRPSolution.
-        # This simplifies the QUBO and is a robust hybrid approach.
         # ======================================================================
         for i in range(num_vehicles):
             k_max = vehicle_k_limits[i]

@@ -1,4 +1,4 @@
-import DWaveSolvers_modified
+import D-Wave_solvers
 from vrp_solution import VRPSolution
 import math
 
@@ -20,7 +20,7 @@ class FullQuboSolver(VRPSolver):
         vrp_qubo = self.problem.get_qubo_paper(vehicle_k_limits, A1, A2)
         
         try:
-            samples = DWaveSolvers_modified.solve_qubo(vrp_qubo, solver_type=solver_type, limit=1, num_reads=num_reads)
+            samples = D-Wave_solvers.solve_qubo(vrp_qubo, solver_type=solver_type, limit=1, num_reads=num_reads)
         except Exception as e:
             print(f"Solver error: {e}")
             return VRPSolution(self.problem, {}, vehicle_k_limits, solution=[])
@@ -43,7 +43,7 @@ class AveragePartitionSolver(VRPSolver):
         vrp_qubo = self.problem.get_qubo_paper(vehicle_k_limits, A1, A2)
 
         try:
-            samples = DWaveSolvers_modified.solve_qubo(vrp_qubo, solver_type=solver_type, limit=1, num_reads=num_reads)
+            samples = D-Wave_solvers.solve_qubo(vrp_qubo, solver_type=solver_type, limit=1, num_reads=num_reads)
         except Exception as e:
             print(f"Solver error: {e}")
             return VRPSolution(self.problem, {}, vehicle_k_limits, solution=[])

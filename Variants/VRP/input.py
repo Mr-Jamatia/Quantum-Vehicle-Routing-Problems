@@ -1,8 +1,6 @@
 
 import numpy as np
 import math
-import csv
-from itertools import product
 
 # ==============================================================================
 # new Solomon parser function for our experiment

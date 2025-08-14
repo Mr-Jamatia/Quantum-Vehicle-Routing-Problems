@@ -23,8 +23,6 @@ class VRPSolution:
             self.solution = final_routes
 
     def check(self):
-        capacities = self.problem.capacities
-        weights = self.problem.weights
         
         # --- Check for duplicate visits ---
         all_visited_dests_list = [dest for route in self.solution for dest in route]
@@ -40,6 +38,14 @@ class VRPSolution:
             return False
 
         # 3. Capacity Check
+        # --- NOTE FOR DEVELOPERS: POST-ANALYSIS CAPACITY CHECK ---
+        # The FQS and APS solvers are for VRP and are "blind" to capacity.
+        # This check is performed *after* the solver returns a result to see
+        # if the VRP solution incidentally respects the capacity constraints.
+        # A 'False' result from this check indicates that a true CVRP
+        # solver is required for this problem instance.
+        capacities = self.problem.capacities
+        weights = self.problem.weights
         for i, route in enumerate(self.solution):
             vehicle_load = sum(weights[dest] for dest in route)
             if vehicle_load > capacities[i]:

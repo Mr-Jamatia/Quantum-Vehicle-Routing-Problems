@@ -1,16 +1,17 @@
 
 import numpy as np
 import math
-import csv
-from itertools import product
 
 # ==============================================================================
 # new Solomon parser function for our experiment
 # ==============================================================================
 def read_solomon(path, num_customers):
     """
-    Parses a Solomon format VRPTW file.
-    Ignores time windows to create a CVRP instance.
+    Parses a Solomon VRPTW file to create a problem dictionary.
+    
+    This function loads core VRP data (coordinates, costs) and also
+    CVRP-specific data (demands, capacities) for post-analysis and
+    future solver development. Time windows are ignored.
     """
     with open(path, 'r') as f:
         lines = f.readlines()
@@ -47,7 +48,12 @@ def read_solomon(path, num_customers):
     weights = np.zeros(num_nodes)
     for i in range(num_nodes):
         weights[i] = customer_data[i]['demand']
-
+    
+    # --- Assemble the problem dictionary ---
+    # NOTE: CVRP data ('weights', 'capacities') is included to enable
+    # post-hoc solution checking and to streamline future upgrades to a
+    # full CVRP solver. The current VRP solvers do not use this data in
+    # their QUBO formulation.
     result = {
         'sources': [0], # Depot is node 0
         'dests': dests,

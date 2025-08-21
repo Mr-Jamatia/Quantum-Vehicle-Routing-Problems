@@ -205,7 +205,7 @@ ________________________________________________________________________________
 | Abhishek Raj               |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
 | Visalatchi R               |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>  |
 | Mohammad Abid Hafiz        |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
-|                            |                                           |                                                                 |
+| Hao Mack Yang              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 

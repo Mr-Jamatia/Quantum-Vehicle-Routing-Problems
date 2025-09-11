@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: QuantumLogistics
+Version: 0.1.0
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: cplex
+Requires-Dist: pygsp
+Requires-Dist: networkx
+Requires-Dist: qiskit
+Requires-Dist: qiskit_optimization
+Requires-Dist: dwave-ocean-sdk
+Requires-Dist: pulp
+Requires-Dist: pytest
+Requires-Dist: pandas
+Requires-Dist: graph_coarsening@ git+https://github.com/loukasa/graph-coarsening
+Dynamic: requires-dist

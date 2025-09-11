@@ -9,4 +9,4 @@ dwave-ocean-sdk
 pulp
 pytest
 pandas
-graph_coarsening @ git+https://github.com/loukasa/graph-coarsening
+graph_coarsening@ git+https://github.com/loukasa/graph-coarsening

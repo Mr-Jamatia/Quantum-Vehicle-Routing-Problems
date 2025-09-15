@@ -197,7 +197,7 @@ ________________________________________________________________________________
 | Mustafa Mert Ozyilmaz      |                                           | <a href = "https://www.linkedin.com/in/mustafa-mert6464/">GO</a> |
 | Rithik Rai                 |                                           | <a href = "https://www.linkedin.com/in/iarithik/">GO</a> |
 | Lohith Alladi              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>  |
-| Risav Pokhrel              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Risav Pokhrel              |                                           | <a href = "https://www.linkedin.com/in/risav-pokhrel/">GO</a> |
 | Naman Bansal               |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
 | Sadiya Ansari              |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
 | Suprajit Dewanji           |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |

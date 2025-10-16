@@ -44,21 +44,12 @@ class Route(object):
     
     def visualiseSolution(self, routeSolution, colormap = "hsv", saveImgFilepath = False):
         try:
-            print("--- Debugging visualiseSolution ---")
             routes = routeSolution
-            print(f"Number of routes: {len(routes)}")
-            print(f"Route solution: {routes}")
-
-            print(f"Graph has {self.graph.N} nodes.")
-            if hasattr(self.graph, 'coords'):
-                print(f"Graph has coordinates of shape: {self.graph.coords.shape}")
-                [xc, yc] = self.graph.coords.T
-            else:
-                print("Graph has no coordinates.")
-                return
-
+            [xc, yc] = self.graph.coords.T
             plt.figure()
             plt.scatter(xc, yc, s=200)
+            # for i in range(len(xc)):
+            #     plt.annotate(i, (xc[i] + 0.15, yc[i]), size=16, color="r")
 
             i = 0
             for x, y in zip(xc, yc):
@@ -71,15 +62,9 @@ class Route(object):
             vehicle_cmap = self.get_cmap(len(routes) + 1, name=colormap)
             for vehicle in range(len(routes)):
                 tour = routes[vehicle]
-                print(f"Vehicle {vehicle}, tour: {tour}")
                 color = vehicle_cmap(vehicle)
                 for hop in tour:
                     _from, _to = hop
-                    print(f"Hop: from {_from} to {_to}")
-
-                    if _from >= len(xc) or _to >= len(xc):
-                        print(f"ERROR: Index out of bounds. _from={_from}, _to={_to}, len(xc)={len(xc)}")
-                        continue
 
                     plt.arrow(
                         xc[_from],
@@ -92,17 +77,13 @@ class Route(object):
                     )
 
             if not saveImgFilepath:
+                #print("THIS IS SHOWING THE THING HERE")
                 plt.show()
             else:
                 print("SAVING FIGURE")
                 plt.savefig(saveImgFilepath)
-            print("--- Finished debugging visualiseSolution ---")
-        except Exception as e:
-            import traceback
-            print("--- ERROR in visualiseSolution ---")
-            print(f"Exception type: {type(e)}")
-            print(f"Exception message: {e}")
-            print(traceback.format_exc())
+        except:
+            print("error when visualising route")
         return
 
     def visualiseGraph(self):

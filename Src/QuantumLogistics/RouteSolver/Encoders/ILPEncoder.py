@@ -118,6 +118,10 @@ class ILPPulpEncoder(Encoder):
             Format is: 
 
         """
+        if solution is None:
+            print("--- ERROR in ILPPulpEncoder.extract: solution is None ---")
+            return [] # Return an empty list instead of None
+
         # convert to route solution format
         #route information
         n = self.route.graph.N

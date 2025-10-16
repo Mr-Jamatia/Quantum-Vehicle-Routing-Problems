@@ -29,8 +29,12 @@ class CompositeRouteSolver(ABC):
 
         #TODO: Sometimes the solver may not find a feasible solution in the timelimit
         # Need to develop an exception handling method for this
+        print("--- Debugging CompositeRouteSolver.solve ---")
         problemSol = self.solveAlgorithm(route)
+        print(f"problemSol from solveAlgorithm: {problemSol}")
+
         routeSol = self.extractSolution(problemSol)
+        print(f"routeSol from extractSolution: {routeSol}")
 
         #route.visualiseSolution(routeSol)
         

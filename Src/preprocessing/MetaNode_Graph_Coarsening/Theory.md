@@ -1,10 +1,12 @@
-The goal is not to solve the CVRPTW, but to abstract it into a smaller, high-fidelity equivalent.This is achieved by clustering original customers into a smaller set of meta-nodes . 
+The goal is not to solve the CVRPTW, but to abstract it into a smaller, high-fidelity equivalent. This is achieved by clustering original customers into a smaller set of meta-nodes. 
 The core of the decision-making process is the CompatibilityScore, a weighted sum of three normalized penalty functions. A lower score indicates a more desirable merge.
-Score(A, B) = wc · Pc(A, B) + wd · Pd(A, B) + wt· Pt(A, B) (1)
+
+Score(A, B) = wc · Pc(A, B) + wd · Pd(A, B) + wt· Pt(A, B), (1)
 where wc, wd, wt are tunable weights (e.g., 0.4, 0.2, 0.4).
+
 1. Cost Penalty (Pc): Penalizes large geographical separation to encourage dense, local clusters.
 It is the normalized travel time tAB.
-2. Demand Penalty (Pd): Penalizes high consumption of vehicle capacity Q. If dA + dB > Q,
+2. Demand Penalty (Pd): Penalizes high consumption of vehicle capacity Q. If dA + dB > Q (where dA and dB are the demands of nodes A and B, respectively),
 the penalty is infinite, making the merge impossible.
 3. Time Penalty (Pt): Penalizes temporal inflexibility. It is calculated based on the ”time slack”
 available between two nodes, heavily penalizing pairs with little to no buffer time.
@@ -18,5 +20,8 @@ sM = sA + tAB + sB
 • Tightened Time Window ([eM, lM]): This is the most critical calculation, ensuring the
 feasibility of the stored internal sequence. For an A → B sequence:
 eM = eA (2)
-lM = min(lA, lB − sA − tAB − sB) (3)
+lM = min(lA, lB − sA − tAB − sB), (3)
+
+where [eA, lA] and [aB, lB] are the time windows of nodes A and B, respectively, sA and sB are the service times of nodes A and B, respectively, and tAB is the travel time between A and B.
+
 This formula correctly bakes in all intermediate time costs. A merge is only feasible if eM ≤ lM.

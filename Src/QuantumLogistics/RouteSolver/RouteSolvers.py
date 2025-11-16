@@ -30,23 +30,23 @@ class CompositeRouteSolver(ABC):
         #TODO: Sometimes the solver may not find a feasible solution in the timelimit
         # Need to develop an exception handling method for this
         problemSol = self.solveAlgorithm(route)
-        print("RAW SOLVER OUTPUT:", problemSol)  # <--- ADD THIS
-        return problemSol
-        # routeSol = self.extractSolution(problemSol)
+        # print("RAW SOLVER OUTPUT:", problemSol)  # Used this to check the raw output from the solver
+        # return problemSol # Used this to check the raw output from the solver
+        routeSol = self.extractSolution(problemSol)
 
-        # #route.visualiseSolution(routeSol)
+        #route.visualiseSolution(routeSol)
         
-        # if route.coarsen:
-        #     routeSol = route.inflateGraph(routeSol)
-        #     route.graph = route.originalGraph
+        if route.coarsen:
+            routeSol = route.inflateGraph(routeSol)
+            route.graph = route.originalGraph
 
-        # #route.visualiseSolution(routeSol)
+        #route.visualiseSolution(routeSol)
     
-        # # Standard solver details
-        # solveTime = time() - startTime
-        # costValue = route.calculateCost(routeSol)
+        # Standard solver details
+        solveTime = time() - startTime
+        costValue = route.calculateCost(routeSol)
 
-        # return routeSol, solveTime, costValue
+        return routeSol, solveTime, costValue
 
 
     @abstractclassmethod

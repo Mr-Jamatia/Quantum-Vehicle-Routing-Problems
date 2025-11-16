@@ -23,6 +23,7 @@ if vrp_explorations_path not in sys.path:
     sys.path.insert(0, vrp_explorations_path)
 
 from VRP.quantum.BQM_based.full_qubo_solver import CapcFullQuboSolver as CFQS
+from VRP.quantum.BQM_based.solution_partition_solver import CapcSolutionPartitionSolver as CSPS
 
 
 class Solver(ABC):
@@ -186,7 +187,7 @@ class VRPExplorationsSolver(Solver):
 
     def solve(self, problemFormat, config):
         # przykład wykorzystania CapcSolutionPartitionSolver → https://github.com/AsishMandoi/VRP-explorations/blob/main/VRP/quantum/BQM_based/Vehicle%20Routing%20Problem.ipynb
-        self.vrp_explorations_solver = CFQS(
+        self.vrp_explorations_solver = CSPS(
             problemFormat.clients_num - 1,
             problemFormat.vehicles_num,
             problemFormat.cost_matrix,

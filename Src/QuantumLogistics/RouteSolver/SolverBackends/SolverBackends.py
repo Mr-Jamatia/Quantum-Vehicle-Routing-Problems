@@ -191,7 +191,7 @@ class VRPExplorationsSolver(Solver):
             problemFormat.clients_num - 1,
             problemFormat.vehicles_num,
             problemFormat.cost_matrix,
-            [problemFormat.capacity]*problemFormat.vehicles_num,
+            problemFormat.capacity,
             problemFormat.demands
         )
         self.vrp_explorations_solver.solve(solver=config['solver'])

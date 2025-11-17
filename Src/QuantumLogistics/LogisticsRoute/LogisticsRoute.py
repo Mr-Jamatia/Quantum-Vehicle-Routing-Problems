@@ -91,6 +91,22 @@ class Route(object):
         input("Press any button to continue")
         return
 
+    def printSolution(self, routeSolution):
+        """
+        Prints the routes for each vehicle in a text format.
+        e.g., Vehicle 1: 0 -> 1 -> 4 -> 5 -> 0
+        """
+        print("\nVehicle Routes (Text):")
+        for i, route in enumerate(routeSolution):
+            if not route:
+                print(f"  Vehicle {i+1}: No route")
+                continue
+            
+            path = [str(route[0][0])]
+            for edge in route:
+                path.append(str(edge[1]))
+            print(f"  Vehicle {i+1}: {' -> '.join(path)}")
+
     def evalutateKPIS(self, solution):
         cost = self.calculateCost(solution)
         return

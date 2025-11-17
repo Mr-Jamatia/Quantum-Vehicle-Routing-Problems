@@ -40,6 +40,8 @@ class CompositeRouteSolver(ABC):
             routeSol = route.inflateGraph(routeSol)
             route.graph = route.originalGraph
 
+        # Print the solution in text format
+        route.printSolution(routeSol)
         #route.visualiseSolution(routeSol)
     
         # Standard solver details

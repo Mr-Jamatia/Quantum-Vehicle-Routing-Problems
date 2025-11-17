@@ -6,10 +6,6 @@ import pandas as pd
 import os
 import sys
 
-# # dirty hack, I am aware
-# sys.path.insert(0, "/home/knalecz/Pulpit/PhD/aktualne_projekty/QReaserch/VRP-explorations")
-
-
 # Path to the 'Src' directory.
 # This goes up three levels from the current file's directory
 # (SolverBackends -> RouteSolver -> QuantumLogistics -> Src)
@@ -186,7 +182,6 @@ class CPLEXNativeSolver(Solver):
 class VRPExplorationsSolver(Solver):
 
     def solve(self, problemFormat, config):
-        # przykład wykorzystania CapcSolutionPartitionSolver → https://github.com/AsishMandoi/VRP-explorations/blob/main/VRP/quantum/BQM_based/Vehicle%20Routing%20Problem.ipynb
         self.vrp_explorations_solver = CSPS(
             problemFormat.clients_num - 1,
             problemFormat.vehicles_num,
@@ -195,6 +190,4 @@ class VRPExplorationsSolver(Solver):
             problemFormat.demands
         )
         self.vrp_explorations_solver.solve(solver=config['solver'])
-
-        # self.vrp_explorations_solver.solution → efekt wywołania metody VehicleRouter#extract_solution
-        return self.vrp_explorations_solver.solution
+        return self.vrp_explorations_solver.solution, self.vrp_explorations_solver.variables

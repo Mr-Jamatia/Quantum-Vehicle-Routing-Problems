@@ -18,7 +18,6 @@ vrp_explorations_path = os.path.join(src_dir, 'external', 'VRP-explorations')
 if vrp_explorations_path not in sys.path:
     sys.path.insert(0, vrp_explorations_path)
 
-from VRP.quantum.BQM_based.full_qubo_solver import CapcFullQuboSolver as CFQS
 from VRP.quantum.BQM_based.solution_partition_solver import CapcSolutionPartitionSolver as CSPS
 
 

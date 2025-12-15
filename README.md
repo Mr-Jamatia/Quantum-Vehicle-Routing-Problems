@@ -199,7 +199,7 @@ ________________________________________________________________________________
 | Lohith Alladi                |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a>  |
 | Risav Pokhrel                |                                           | <a href = "https://www.linkedin.com/in/risav-pokhrel/">GO</a> |
 | Naman Bansal                 |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
-| Sadiya Ansari                |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
+| Sadiya Ansari                |                                           | <a href = "https://www.linkedin.com/in/sadiyaansari2324/">GO</a> |
 | Suprajit Dewanji             |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
 | sai sudarshan                |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
 | Abhishek Raj                 |                                           | <a href = "https://www.linkedin.com/in/User_Name/">Click Me</a> |
